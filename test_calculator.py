@@ -1,3 +1,6 @@
+# https://github.com/eva-valdez/lab11-EV-IEH
+# Partner 1: Imad El Hammoumi
+# Partner 2: Eva Valdez
 
 import unittest
 from calculator import *
@@ -17,20 +20,20 @@ class TestCalculator(unittest.TestCase):
 
     ######## Partner 1
     def test_multiply(self):
-        self.assertEqual(multiply(2, 3), 6)
-        self.assertEqual(multiply(-2, 4), -8)
-        self.assertEqual(multiply(0, 5), 0)
+        self.assertEqual(mul(2, 3), 6)
+        self.assertEqual(mul(-2, 4), -8)
+        self.assertEqual(mul(0, 5), 0)
 
     def test_divide(self):
-        self.assertEqual(divide(2, 10), 5)
-        self.assertEqual(divide(4, 20), 5)
-        self.assertAlmostEqual(divide(3, 10), 10 / 3)
+        self.assertEqual(div(2, 10), 5)
+        self.assertEqual(div(4, 20), 5)
+        self.assertAlmostEqual(div(3, 10), 10 / 3)
     ##########################
 
     ######## Partner 2
     def test_divide_by_zero(self):  # 1 assertion
         with self.assertRaises(ZeroDivisionError):
-            divide(0, 10)
+            div(0, 10)
 
     def test_logarithm(self):  # 3 assertions
         self.assertAlmostEqual(logarithm(2, 8), 3)
