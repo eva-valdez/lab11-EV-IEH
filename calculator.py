@@ -1,6 +1,7 @@
 # https://github.com/eva-valdez/lab11-EV-IEH
 # Partner 1: Imad El Hammoumi
 # Partner 2: Eva Valdez
+# Merge exercise: Partner 2 version.
 
 """
 calculator.py
