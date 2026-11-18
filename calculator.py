@@ -29,8 +29,9 @@ def subtract(a, b):
 
 
 def mul(a, b):
-    return a * b
-
+    result = a * b
+    return result 
+  
 
 def div(a, b):
     if a == 0:
